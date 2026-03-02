@@ -128,7 +128,7 @@ html {
 .tm-btn-default {
   border: 1px solid #ccc;
   background-color: transparent;
-  color: #626364;
+  color: #ffffff;
 }
 
 .tm-btn-default:hover,
@@ -195,16 +195,16 @@ html {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
-  background-color: #ccc;
+  background-color: #a74141;
   overflow-x: hidden;
 }
 
 .container {
-  background-color: white;
+  background-color: rgb(121, 65, 65);
 }
 
 p, address {
-  color: #626364;
+  color: #ffffff;
   line-height: 1.8;
 }
 
@@ -397,7 +397,7 @@ p, address {
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #1A6692;
+  color: #87adc4;
   margin-bottom: 15px;
 }
 
@@ -407,7 +407,7 @@ p, address {
 
 .tm-gallery-price {
   font-size: 1.25rem;
-  color: #2F956D;
+  color: #50caa5;
   margin-bottom: 60px;
 }
 
@@ -419,7 +419,7 @@ p, address {
 .tm-paging-item {
   list-style: none;
   display: inline-block;
-  border: 1px solid #2F956D;
+  border: 1px solid #50caa5;
   margin: 7px;
 }
 
@@ -429,13 +429,13 @@ p, address {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #2F956D;
+  color: #50caa5;
   background-color: transparent;
 }
 
 .tm-paging-link.active,
 .tm-paging-link:hover {
-  background-color: #2F956D;
+  background-color: #50caa5;
   color: white;
 }
 
@@ -475,12 +475,12 @@ p, address {
 }
 
 .tm-footer a {
-  color: #626364;
+  color: #646262;
   text-decoration: none;
 }
 
 .tm-footer a:hover {
-  color: #1A6692;
+  color: #87adc4;
 }
 
 /* About */
@@ -531,7 +531,7 @@ p, address {
 }
 
 .tm-social-link {
-  color: #626364;
+  color: #ffffff;
   display: inline-block;
   border-radius: 1px;
   background-color: transparent;
@@ -545,7 +545,7 @@ p, address {
 
 .tm-social-link:hover {
   color: white;
-  background-color: #626364;
+  background-color: #ffffff;
 }
 
 .tm-social-icon {
@@ -562,7 +562,7 @@ p, address {
 }
 
 .tm-feature-icon {
-  color: #9f9c9c;
+  color: #5e0505;
   margin-bottom: 65px;
 }
 
@@ -603,7 +603,7 @@ p, address {
 .tm-history-title {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1A6692;
+  color: #87adc4;
   margin-bottom: 30px;
 }
 
@@ -654,7 +654,7 @@ p, address {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #626364;
+  color: #ffffff;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -732,7 +732,7 @@ address {
 
 .tm-contact-link {
   display: inline-block;
-  color: #626364;
+  color: #ffffff;
   margin-bottom: 25px;
   text-decoration: none;
 }
