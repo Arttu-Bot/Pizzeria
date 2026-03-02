@@ -415,6 +415,25 @@ p, address {
   margin-bottom: 60px;
 }
 
+.tm-add-cart p {
+  font-size: 1.25rem;
+  color: #2F956D;
+  margin-inline: 150px;
+  margin-bottom: 0px;
+  position: inherit;
+}
+
+.tm-add-cart {
+  font-size: 1.25rem;
+  color: #2F956D;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 2%;
+  margin-inline: 150px;
+  margin-bottom: 0px;
+  position: inherit;
+}
+
 .tm-description-figure {
   text-align: center;  
 }
