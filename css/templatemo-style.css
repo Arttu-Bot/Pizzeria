@@ -211,7 +211,7 @@ p, address {
 /* Set width and height in JS */
 .placeholder {
   width: 100%;
-  min-height: 120px;
+  min-height: 100px;
   background-color: #556E5B;
 }
 
@@ -224,13 +224,13 @@ p, address {
 }
 
 .parallax-window {
-  min-height: 120px;
+  min-height: 100px;
   background: transparent;
   position: relative;
 }
 
 .parallax-window-2 {
-  min-height: 120px;
+  min-height: 100px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -264,6 +264,7 @@ p, address {
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
+  margin-bottom: -15px;
 }
 
 .tm-site-text-box {
@@ -283,7 +284,7 @@ p, address {
 
 .tm-nav {
   text-align: right;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .tm-nav-ul {
