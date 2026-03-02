@@ -313,9 +313,12 @@ p, address {
   padding-bottom: 10px;
 }
 
-.tm-nav-link.active,
+.tm-nav-link.active {
+  color: black;
+}
+
 .tm-nav-link:hover {
-  border-bottom: 1px solid white;
+  color: black;
 }
 
 .tm-welcome-section {
