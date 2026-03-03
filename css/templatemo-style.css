@@ -411,6 +411,7 @@ p, address {
   margin-bottom: 60px;
 }
 
+<<<<<<< Updated upstream
 .tm-paging-links {
   text-align: center;
   margin-bottom: 40px;
@@ -439,6 +440,8 @@ p, address {
   color: white;
 }
 
+=======
+>>>>>>> Stashed changes
 .tm-description-figure {
   text-align: center;  
 }
