@@ -261,6 +261,7 @@ p, address {
 @media (max-width: 991px) {
   .tm-header-inner {
     padding: 30px 15px;
+    position: relative;
   }
 }
 
@@ -269,6 +270,7 @@ p, address {
   margin-right: 5px;
   margin-bottom: -30px;
   max-width: 100px;
+  position: absolute;
 }
 
 .tm-site-text-box {
@@ -299,16 +301,16 @@ p, address {
 
 .tm-nav-li {
   list-style: none;
-  display: block;
+  display: inline-block;
   margin-bottom: 0;
-  padding-right: 25px;
+  padding-right: auto;
   padding-left: 25px;
 }
 
 @media (max-width: 991px) {
   .tm-nav-li {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
 
@@ -329,6 +331,7 @@ p, address {
   height: 30px;
   display: inline-block;
   margin-left: auto;
+  position: relative;
 }
 
 .tm-nav-profile:hover {
