@@ -128,7 +128,7 @@ html {
 .tm-btn-default {
   border: 1px solid #ccc;
   background-color: transparent;
-  color: #ffffff;
+  color: #626364;
 }
 
 .tm-btn-default:hover,
@@ -195,23 +195,23 @@ html {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
-  background-color: #a74141;
+  background-color: #ccc;
   overflow-x: hidden;
 }
 
 .container {
-  background-color: rgb(121, 65, 65);
+  background-color: white;
 }
 
 p, address {
-  color: #ffffff;
+  color: #626364;
   line-height: 1.8;
 }
 
 /* Set width and height in JS */
 .placeholder {
   width: 100%;
-  min-height: 460px;
+  min-height: 100px;
   background-color: #556E5B;
 }
 
@@ -224,13 +224,13 @@ p, address {
 }
 
 .parallax-window {
-  min-height: 460px;
+  min-height: 100px;
   background: transparent;
   position: relative;
 }
 
 .parallax-window-2 {
-  min-height: 220px;
+  min-height: 100px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -264,6 +264,7 @@ p, address {
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
+  margin-bottom: -15px;
 }
 
 .tm-site-text-box {
@@ -283,7 +284,7 @@ p, address {
 
 .tm-nav {
   text-align: right;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .tm-nav-ul {
@@ -312,9 +313,12 @@ p, address {
   padding-bottom: 10px;
 }
 
-.tm-nav-link.active,
+.tm-nav-link.active {
+  color: black;
+}
+
 .tm-nav-link:hover {
-  border-bottom: 1px solid white;
+  color: black;
 }
 
 .tm-welcome-section {
@@ -397,7 +401,7 @@ p, address {
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #87adc4;
+  color: #1A6692;
   margin-bottom: 15px;
 }
 
@@ -407,36 +411,27 @@ p, address {
 
 .tm-gallery-price {
   font-size: 1.25rem;
-  color: #50caa5;
+  color: #2F956D;
   margin-bottom: 60px;
 }
 
-.tm-paging-links {
-  text-align: center;
-  margin-bottom: 40px;
+.tm-add-cart p {
+  font-size: 1.25rem;
+  color: #2F956D;
+  margin-inline: 150px;
+  margin-bottom: 0px;
+  position: inherit;
 }
 
-.tm-paging-item {
-  list-style: none;
+.tm-add-cart {
+  font-size: 1.25rem;
+  color: #2F956D;
   display: inline-block;
-  border: 1px solid #50caa5;
-  margin: 7px;
-}
-
-.tm-paging-link {
-  padding: 10px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #50caa5;
-  background-color: transparent;
-}
-
-.tm-paging-link.active,
-.tm-paging-link:hover {
-  background-color: #50caa5;
-  color: white;
+  border: 1px solid black;
+  padding: 2%;
+  margin-inline: 150px;
+  margin-bottom: 0px;
+  position: inherit;
 }
 
 .tm-description-figure {
@@ -475,12 +470,12 @@ p, address {
 }
 
 .tm-footer a {
-  color: #646262;
+  color: #626364;
   text-decoration: none;
 }
 
 .tm-footer a:hover {
-  color: #87adc4;
+  color: #1A6692;
 }
 
 /* About */
@@ -531,7 +526,7 @@ p, address {
 }
 
 .tm-social-link {
-  color: #ffffff;
+  color: #626364;
   display: inline-block;
   border-radius: 1px;
   background-color: transparent;
@@ -545,7 +540,7 @@ p, address {
 
 .tm-social-link:hover {
   color: white;
-  background-color: #ffffff;
+  background-color: #626364;
 }
 
 .tm-social-icon {
@@ -562,7 +557,7 @@ p, address {
 }
 
 .tm-feature-icon {
-  color: #5e0505;
+  color: #9f9c9c;
   margin-bottom: 65px;
 }
 
@@ -603,7 +598,7 @@ p, address {
 .tm-history-title {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #87adc4;
+  color: #1A6692;
   margin-bottom: 30px;
 }
 
@@ -654,7 +649,7 @@ p, address {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff;
+  color: #626364;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -732,7 +727,7 @@ address {
 
 .tm-contact-link {
   display: inline-block;
-  color: #ffffff;
+  color: #626364;
   margin-bottom: 25px;
   text-decoration: none;
 }
