@@ -265,9 +265,9 @@ p, address {
 }
 
 .tm-site-logo {
-  display: block;
+  display: inline-block;
   margin-right: 5px;
-  margin-bottom: -25px;
+  margin-bottom: -30px;
   max-width: 100px;
 }
 
