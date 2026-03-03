@@ -212,7 +212,7 @@ p, address {
 .placeholder {
   width: 100%;
   min-height: 100px;
-  background-color: #556E5B;
+  background-color: #464646;
 }
 
 .placeholder-2 {
@@ -262,8 +262,10 @@ p, address {
 }
 
 .tm-site-logo {
-  display: inline-block;
+  display: block;
   margin-right: 5px;
+  margin-bottom: -20px;
+  max-width: 100px;
 }
 
 .tm-site-text-box {
@@ -411,7 +413,6 @@ p, address {
   margin-bottom: 60px;
 }
 
-<<<<<<< Updated upstream
 .tm-paging-links {
   text-align: center;
   margin-bottom: 40px;
@@ -440,8 +441,6 @@ p, address {
   color: white;
 }
 
-=======
->>>>>>> Stashed changes
 .tm-description-figure {
   text-align: center;  
 }
