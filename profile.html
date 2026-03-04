@@ -8,6 +8,7 @@
     <title>Kervan pizzeria</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
 	<link href="css/templatemo-style.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -41,32 +42,14 @@
 				<p class="col-12 text-center">Täältä näet kaiken profiiliisi liittyvän</p>
         </header>
 
-        <div class="tm-container-inner-2 tm-contact-section">
-            <div class="row">
-                <div class="col-md-6">
-                    <form action="" method="POST" class="tm-contact-form">
-                        <div class="form-group">
-                          <input type="text" name="Nimi" class="form-control" placeholder="nimi" required="" />
-                        </div>
-                        
-                        <div class="form-group">
-                          <input type="email" name="Sähköposti" class="form-control" placeholder="sähköposti" required="" />
-                        </div>
-            
-                        <div class="form-group">
-                          <textarea rows="5" name="Viesti" class="form-control" placeholder="viesti" required=""></textarea>
-                        </div>
-                
-                        <div class="form-group tm-d-flex">
-                          <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
-                            Lähetä
-                          </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="row">
+            <form id="registeration-form">
+                <input id="nimi" type="text" placeholder="Nimi" value="" required="" />
+                <input id="salasana" type="text" placeholder="Salasana" value="" required="" />
+                <input id="kirjaudu-sisaan-nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
+                <input id="kirjaudu-ulos-nappi" type="submit" value="Kirjaudu ulos" onClick="kirjauduUlos()" />
+            </form>
         </div>
-
     </main>
 
     <footer class="tm-footer text-center">
