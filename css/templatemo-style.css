@@ -5,6 +5,17 @@ Simple House
 https://templatemo.com/tm-539-simple-house
 
 */
+
+.center{
+  position: relative;
+  left: 500px;
+}
+
+.checkbox{
+  position: relative;
+  bottom: 19px;
+}
+
 .tm-section-title{
   color: white;
 }
