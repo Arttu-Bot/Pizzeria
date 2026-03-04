@@ -268,8 +268,8 @@ p, address {
 .tm-site-logo {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: -30px;
-  max-width: 100px;
+  margin-top: 5px;
+  max-width: 90px;
   position: absolute;
 }
 
