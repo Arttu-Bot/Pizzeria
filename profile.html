@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kervan pizzeria</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <!-- Top box -->
+            <!-- Logo & Site Name -->
+            <div class="placeholder">
+                <div class="parallax-window" data-parallax="scroll">
+                    <div class="tm-header">
+                        <div class="row tm-header-inner">
+                            <div class="col-md-6 col-12">
+                                <img src="img/Kervan_Pizzeria_logo.png" alt="Logo" class="tm-site-logo" /> 
+                            </div>
+                            <nav class="col-md-6 col-12 tm-nav">
+                                <ul class="tm-nav-ul">
+                                    <li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Koti</a></li>
+                                    <li class="tm-nav-li"><a href="menu.html" class="tm-nav-link">Ruokalista</a></li>
+                                    <li class="tm-nav-li"><a href="about.html" class="tm-nav-link">Meistä</a></li>
+                                    <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Ota Yhteyttä</a></li>
+                                    <a href="profile-html" class="tm-nav-li"> <img src="img/4092564-about-mobile-ui-profile-ui-user-website_114033.png" alt="Kori" class="tm-nav-profile" class="tm-nav-link"></a>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <main>
+        <header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Tässä on profiilisi</h2>
+				<p class="col-12 text-center">Täältä näet kaiken profiiliisi liittyvän</p>
+        </header>
+        <div class="profile">
+            <form id="kirjaudu-sisaan-lomake">
+                <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
+                <input id="salasana" type="text" placeholder="Anna salasana" value="" />
+                <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
+            </form>
+        
+            <form id="kirjaudu-ulos-lomake">
+                <input id="kirjaudu-ulos-nappi" type="submit" value="Kirjaudu ulos" onClick="kirjaudu_ulos()" />
+            </form>
+        </div>
+    </main>
+
+    <footer class="tm-footer text-center">
+        <p>Copyright &copy; 2020 Simple House 
+        
+        | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+    </footer>
+
+    </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+	</div>
+</body>
+</html>
