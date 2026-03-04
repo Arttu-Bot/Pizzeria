@@ -5,6 +5,9 @@ Simple House
 https://templatemo.com/tm-539-simple-house
 
 */
+.tm-section-title{
+  color: white;
+}
 
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
@@ -200,7 +203,7 @@ body {
 }
 
 .container {
-  background-color: rgb(121, 65, 65);
+  background-color: rgb(78, 36, 36);
 }
 
 p, address {
@@ -258,14 +261,16 @@ p, address {
 @media (max-width: 991px) {
   .tm-header-inner {
     padding: 30px 15px;
+    position: relative;
   }
 }
 
 .tm-site-logo {
-  display: block;
+  display: inline-block;
   margin-right: 5px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   max-width: 100px;
+  position: absolute;
 }
 
 .tm-site-text-box {
@@ -284,27 +289,28 @@ p, address {
 }
 
 .tm-nav {
-  text-align: right;
+  text-align: center;
   margin-top: 30px;
 }
 
 .tm-nav-ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .tm-nav-li {
   list-style: none;
-  display: block;
+  display: inline-block;
   margin-bottom: 0;
-  padding-right: 25px;
+  padding-right: auto;
   padding-left: 25px;
 }
 
 @media (max-width: 991px) {
   .tm-nav-li {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
 
@@ -316,6 +322,19 @@ p, address {
 
 .tm-nav-link.active,
 .tm-nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.tm-nav-profile {
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: auto;
+  position: relative;
+}
+
+.tm-nav-profile:hover {
   border-bottom: 1px solid white;
 }
 
