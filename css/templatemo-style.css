@@ -459,7 +459,70 @@ border-bottom: 1px solid white;
   color: #87adc4;
 }
 
-/* About */
+
+
+/* fantasia */
+
+.fantasia-header {
+  display: block;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.fantasia-header-text {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: xx-large;
+  color: black;
+}
+
+.fantasia-header-description {
+  display: inline-block;
+  align-items: flex-start;
+  justify-content: left;
+  font-size: medium;
+  margin-top: 10px;
+  margin-right: 450px;
+  max-width: 500px;
+  color: black;
+}
+
+.fantasia-building-text {
+  display: block;
+  margin: 60px auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  max-width: 1000px;
+  font-size: large;
+  color: black;
+}
+
+.toppings-menu {
+  display: block;
+  margin: 60px auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 500px;
+  max-width: 1000px;
+  background: fixed;
+  background-color: #0b5c1b;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.pizza-toppings {
+  list-style: none;
+  margin: 0px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: medium;
+  font-weight: 300;
+  color: black;
+}
+
+
 .tm-persons {
   margin-bottom: 20px;
 }
@@ -598,6 +661,8 @@ border-bottom: 1px solid white;
     margin: 0 auto 0 35px;
   } 
 }
+
+
 
 /* Contact Page */
 .tm-contact-form {
@@ -753,16 +818,6 @@ address {
   padding-top: 40px;
 }
 
-.profile {
-display: inline-block;
-border: solid 2px black;
-padding-left: 50%;
-padding-right: 50%;
-}
-
-.kirjaudu-sisaan-lomake {
-  margin: 60px auto;
-}
 
 
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
