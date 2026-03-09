@@ -465,35 +465,38 @@ border-bottom: 1px solid white;
 /* fantasia */
 
 .fantasia-header {
-  display: block;
+  display: inline-block;
   margin: 60px auto;
   max-width: 1000px;
 }
 
 .fantasia-header-text {
-  display: flex;
+  display: relative;
   align-items: left;
   justify-content: left;
+  margin-left: 100px;
+  margin-top: 30px;
   font-size: xx-large;
   color: black;
 }
 
 .fantasia-header-description {
-  display: inline-block;
+  display: relative;
   align-items: flex-start;
   justify-content: left;
+  margin-left: 100px;
+  margin-top: 30px;
   font-size: medium;
-  margin-top: 10px;
   margin-right: 450px;
   max-width: 500px;
   color: black;
 }
 
 .fantasia-building-text {
-  display: block;
-  margin: 60px auto;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  display: relative;
+  justify-content: left;
+  margin-left: 100px;
+  margin-top: 30px;
   max-width: 1000px;
   font-size: large;
   color: black;
@@ -501,27 +504,72 @@ border-bottom: 1px solid white;
 
 .toppings-menu {
   display: block;
-  margin: 60px auto;
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 500px;
-  max-width: 1000px;
-  background: fixed;
-  background-color: #0b5c1b;
-  height: 500px;
-  border: 2px solid black;
 }
 
-.pizza-toppings {
+.pizza-crust {
+  display: relative;
   list-style: none;
-  margin: 0px;
   padding: 15px;
-  justify-content: space-between;
+  justify-content: left;
   align-items: baseline;
   font-size: medium;
   font-weight: 300;
   color: black;
+  text-align: center;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: #0b5c1b;
+  border: 2px solid black;
+  border-radius: 5px;
 }
+
+.pizza-crust-type {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.pizza-choose {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pizza-toppings {
+  display: relative;
+  list-style: none;
+  justify-content: left;
+  align-items: baseline;
+  background-color: #0b5c1b;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.pizza-toppings-img {
+  display: block;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+
 
 
 .tm-persons {
