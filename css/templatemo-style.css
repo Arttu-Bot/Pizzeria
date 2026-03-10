@@ -477,7 +477,8 @@ border-bottom: 1px solid white;
   margin-left: 100px;
   margin-top: 30px;
   font-size: xx-large;
-  color: black;
+  font-weight: 400;
+  color: white;
 }
 
 .fantasia-header-description {
@@ -492,14 +493,33 @@ border-bottom: 1px solid white;
   color: black;
 }
 
+
+.fantasia-body {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+}
+
+.fantasia-img {
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 450px;
+  height: 450px;
+  border-radius: 300px;
+  border: 2px solid black;
+}
+
 .fantasia-building-text {
   display: relative;
   justify-content: left;
-  margin-left: 100px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
   max-width: 1000px;
   font-size: large;
-  color: black;
+  color: rgb(248, 248, 248);
 }
 
 .toppings-menu {
@@ -517,11 +537,12 @@ border-bottom: 1px solid white;
   color: black;
   text-align: center;
   width: 250px;
-  margin-left: 100px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
   background-color: #0b5c1b;
   border: 2px solid black;
   border-radius: 5px;
+  
 }
 
 .pizza-crust-type {
@@ -555,7 +576,7 @@ border-bottom: 1px solid white;
   text-align: center;
   color: black;
   width: 600px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 30px;
   padding: 15px;
 }
@@ -572,144 +593,7 @@ border-bottom: 1px solid white;
 
 
 
-.tm-persons {
-  margin-bottom: 20px;
-}
 
-.tm-person {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 60px;
-}
-
-@media (min-width: 420px) {
-  .tm-person {
-    flex-direction: row;
-  }
-}
-
-.tm-person-description {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.tm-person-name {
-  font-size: 1.6rem;
-  font-weight: 300;
-  color: #09C;
-  margin-bottom: 5px;
-  margin-top: 15px;
-}
-
-@media (min-width: 420px) {
-  .tm-person-name {
-    margin-top: 0;
-  }
-}
-
-.tm-person-title {
-  color: #C39;
-  margin-bottom: 20px;
-}
-
-.tm-person-about {
-  margin-bottom: 20px;
-}
-
-.tm-social-link {
-  color: #ffffff;
-  display: inline-block;
-  border-radius: 1px;
-  background-color: transparent;
-  font-size: 1.3rem;
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  margin-right: 0;
-  margin-bottom: 15px;
-}
-
-.tm-social-link:hover {
-  color: white;
-  background-color: #ffffff;
-}
-
-.tm-social-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.tm-feature {
-  text-align: center;
-  padding: 45px 20px;
-}
-
-.tm-feature-icon {
-  color: #5e0505;
-  margin-bottom: 65px;
-}
-
-.tm-feature-description {
-  margin-bottom: 35px;
-  font-size: 1rem;
-}
-
-.tm-features {
-  margin-top: 35px;
-}
-
-.tm-history {
-  margin-top: 45px;
-}
-
-.tm-history-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.tm-history-img {
-  max-width: 100%;
-}
-
-@media (min-width: 768px) {
- .tm-history-img {
-    max-width: 50%;
-  }
-  
-  .tm-history-inner {
-    flex-direction: row;
-  }
-}
-
-.tm-history-title {
-  font-size: 1.6rem;
-  font-weight: 300;
-  color: #87adc4;
-  margin-bottom: 30px;
-}
-
-.tm-history-text {
-  max-width: 480px;
-  margin: 15px auto 0;
-}
-
-.tm-history-description {
-  margin-bottom: 40px;
-}
-
-@media (min-width: 768px) {
- .tm-history-text {
-    max-width: auto;
-    margin: 0 auto 0 35px;
-  } 
-}
 
 
 
