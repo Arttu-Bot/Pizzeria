@@ -6,44 +6,12 @@ https://templatemo.com/tm-539-simple-house
 
 */
 
-/*Custom slideri palautesivulle*/
-input[type="range"]::-webkit-slider-runnable-track {
+
+#NollaMargin{
+  margin: 0 auto;
+  max-width: 900px;
   width: 100%;
-  height: 1.2em;
-  cursor: pointer;
-  border: 1px solid #29334f;
-  background-color: rgb(73, 10, 10);
-  overflow: hidden;
 }
-
-input[type="range"]::-webkit-slider-thumb {
-  height: 12px;
-  width: 45px;
-  cursor: pointer;
-  -webkit-appearance: none;
-  border-bottom: 1px solid #29334f;
-  box-shadow: -15px 0 0 #268f3b, -30px 0 0 #268f3b, -45px 0 0 #268f3b,
-     -60px 0 0 #268f3b, -75px 0 0 #268f3b, -90px 0 0 #268f3b, -105px 0 0 #268f3b,
-     -120px 0 0 #268f3b;
-  background: black;
-}
-
-
-#Arvot {
-  display: flex;
-  justify-content: space-between;
-  max-width: 129px;
-}
-
-#Arvot option {
-  position: relative;
-  background: rgb(121, 65, 65);
-  top: 18px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  max-width: 10px;
-}
-
 
 .tm-section-title{
   color: white;
@@ -129,7 +97,7 @@ html {
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
+    /*max-width: 50%;*/
   }
 }
 
@@ -338,7 +306,7 @@ border-bottom: 1px solid white;
   .tm-section,
   .tm-container-inner,
   .tm-container-inner-2 {
-    max-width: 840px;
+    max-width: 440px;
   }
 }
 
@@ -635,12 +603,13 @@ border-bottom: 1px solid white;
 /* Contact Page */
 
 .tm-contact-form {
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
 }
 
 @media (min-width: 768px) {
  .tm-contact-form {
-    max-width: 310px;
+    max-width: 600px;
   } 
 }
 
@@ -655,6 +624,7 @@ border-bottom: 1px solid white;
 
 .form-group {
   margin-bottom: 30px;
+  max-width: 100%;
 }
 
 .form-control {
@@ -664,7 +634,7 @@ border-bottom: 1px solid white;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff;
+  color: #000000;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
