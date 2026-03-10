@@ -845,6 +845,71 @@ address {
   justify-content: center;
 }
 
+
+.profile {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #0b5c1b;
+  padding: 30px;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.tiedot {
+  list-style: none;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 18px;
+  padding: 10px;
+  background-color: #0b5c1b;
+}
+
+.nimi {
+  display: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size: medium;
+  line-height: 1;
+}
+
+.salasana {
+  display: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size: medium;
+  line-height: 1;
+}
+
+.kirjaudu-nappi {
+  display: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.kirjaudu-ulos-nappi {
+  display: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+
+
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {

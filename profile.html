@@ -38,15 +38,16 @@
                     <h2 class="col-12 text-center tm-section-title">Tässä on profiilisi</h2>
                     <p class="col-12 text-center">Täältä näet kaiken profiiliisi liittyvän</p>
             </header>
+
+
             <div class="profile">
-                <form id="kirjaudu-sisaan-lomake">
-                    <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
-                    <input id="salasana" type="text" placeholder="Anna salasana" value="" />
-                    <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
-                </form>
-            
-                <form id="kirjaudu-ulos-lomake">
-                    <input id="kirjaudu-ulos-nappi" type="submit" value="Kirjaudu ulos" onClick="kirjaudu_ulos()" />
+                <form class="kirjautumislomake">
+                    <ul class="tiedot">
+                        <li><input class="nimi" type="text" placeholder="Syötä nimesi" value="" /></li>
+                        <li><input class="salasana" type="text" placeholder="Anna salasana" value="" /></li>
+                        <li><input class="kirjaudu-nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" /></li>
+                        <li><input class="kirjaudu-ulos-nappi" type="submit" value="Kirjaudu ulos" onClick="kirjaudu_ulos()" /></li>
+                    </ul>
                 </form>
             </div>
         </main>
