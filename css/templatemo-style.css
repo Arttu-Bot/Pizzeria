@@ -6,6 +6,45 @@ https://templatemo.com/tm-539-simple-house
 
 */
 
+/*Custom slideri palautesivulle*/
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1.2em;
+  cursor: pointer;
+  border: 1px solid #29334f;
+  background-color: rgb(73, 10, 10);
+  overflow: hidden;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 12px;
+  width: 45px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-bottom: 1px solid #29334f;
+  box-shadow: -15px 0 0 #268f3b, -30px 0 0 #268f3b, -45px 0 0 #268f3b,
+     -60px 0 0 #268f3b, -75px 0 0 #268f3b, -90px 0 0 #268f3b, -105px 0 0 #268f3b,
+     -120px 0 0 #268f3b;
+  background: black;
+}
+
+
+#Arvot {
+  display: flex;
+  justify-content: space-between;
+  max-width: 129px;
+}
+
+#Arvot option {
+  position: relative;
+  background: rgb(121, 65, 65);
+  top: 18px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  max-width: 10px;
+}
+
+
 .tm-section-title{
   color: white;
 }
@@ -236,7 +275,12 @@ body {
   text-decoration: none;
 }
 
-.links-active:hover {
+.active{
+  font-style: italic;
+  border-bottom: 1px solid white;
+}
+
+.highlight:hover {
 border-bottom: 1px solid white;
 }
 

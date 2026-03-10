@@ -27,10 +27,10 @@ https://templatemo.com/tm-539-simple-house
 
             <div class="right">
                 <ul class="links">
-                    <li><a href="index.html">Koti</a></li>
-                    <li><a href="menu.html">Ruokalista</a></li>
-                    <li><a href="fantasia.html">Fantasia</a></li>
-                    <li><a href="contact.html" class="links-active">Ota Yhteyttä</a></li>
+                    <li><a href="index.html" class="highlight">Koti</a></li>
+                    <li><a href="menu.html" class="highlight">Ruokalista</a></li>
+                    <li><a href="fantasia.html" class="highlight">Fantasia</a></li>
+                    <li><a href="contact.html" class="active">Palaute</a></li>
                 </ul>
                 <div class="nav-profile">
                     <a href="profile.html"> <img src="img/pizzeria_profiilikuva.png" class="profile-icon"></a>
@@ -41,22 +41,35 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Ota yhteyttä</h2>
-				<p class="col-12 text-center">Voit käyttää <a rel="nofollow" href="https://www.ltcclock.com/downloads/simple-contact-form/" target="_blank">Yksinkertainen yhteydenottolomake</a> lähettää sähköposti postilaatikkoosi.                                                                                                                  
-
-
-
-
+				<h2 class="col-12 text-center tm-section-title">Palaute</h2>
+				<p class="col-12 text-center">Lähetä palautetta</p>                                                                                                                
 
 			<div class="tm-container-inner-2 tm-contact-section">
 				<div class="row">
 					<div class="col-md-6">
+
+
+
 						<form action="" method="POST" class="tm-contact-form">
-					        <div class="form-group">
-					          <input type="text" name="Nimi" class="form-control" placeholder="nimi" required="" />
-					        </div>
+							<div class="form-group">
+								<div class="arvolista">
+									<datalist id="Arvot">
+										<option value="1"></option>
+										<option value="2"></option>
+										<option value="3"></option>
+										<option value="4"></option>
+										<option value="5"></option>
+									</datalist>
+								</div>
+
 					        
-					        <div class="form-group">
+								<form>
+									<label for="Tyytyväisyys">Kuinka tyytyväinen olet palveluihimme?</label>
+									 <input type="range" name="Tyytyväisyys" min="1" max="5" list="Arvot">
+								</form>
+					        </div>
+
+							<div class="form-group">
 					          <input type="email" name="Sähköposti" class="form-control" placeholder="sähköposti" required="" />
 					        </div>
 				
