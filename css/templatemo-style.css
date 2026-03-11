@@ -6,6 +6,9 @@ https://templatemo.com/tm-539-simple-house
 
 */
 
+.highlight-icon:hover{
+  border: white 1px dashed;
+}
 
 #NollaMargin{
   margin: 0 auto;
