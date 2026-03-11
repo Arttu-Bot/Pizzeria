@@ -1,24 +1,13 @@
-document.addEventListener("DOMContentLoaded", onkoKirjautunut);
+function showlogin() {
 
-function onkoKirjautunut(){
-    if(localStorage.getItem("kirjautunut") === 'kylla'){
-        document.getElementById('tervetulo-teksti').textContent += localStorage.getItem("nimi");
-        document.getElementById("kirjautumislomake").style.display = "none";
-        document.getElementById("kirjaudu-ulos-nappi");
-    }
-    else{
-        document.getElementById('tervetulo-teksti');
-        document.getElementById("kirjautumislomake");
-        document.getElementById("kirjaudu-ulos-nappi").style.display = "none";
-    }
+    document.getElementByID("registeration-form").classList.add("hidden");
+
+    document.getElmentById("login-form").classList.remove("hidden");
 }
 
-function kirjaudu_ulos(){
-    localStorage.clear("nimi", document.getElementById("nimi"));
-}
+function showRegister() {
 
-function kirjaudu(){
-    localStorage.setItem("nimi", document.getElementById("nimi").value);
-    localStorage.setItem("salasana", document.getElementById("salasana").value);
-    localStorage.setItem("kirjautunut", "kylla");
+    document.getElementById("registeration-form").classList.remove("hidden")
+
+    document.getElementById("login-form").classList.add("hidden")
 }

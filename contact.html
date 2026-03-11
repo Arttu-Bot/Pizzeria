@@ -33,7 +33,8 @@ https://templatemo.com/tm-539-simple-house
                     <li><a href="contact.html" class="active">Palaute</a></li>
                 </ul>
                 <div class="nav-profile">
-                    <a href="profile.html"> <img src="img/pizzeria_profiilikuva.png" class="profile-icon"></a>
+                    <a href="profile.html"> <img src="img/pizzeria_profiilikuva.png" class="profile-icon highlight-icon"></a>
+					<a href="ostoskori.html"><img src="img/ostoskori.png" class="profile-icon highlight-icon"></a>
                 </div>
             </div>
         </nav>
@@ -41,40 +42,32 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Palaute</h2>
-				<p class="col-12 text-center">Lähetä palautetta</p>                                                                                                                
+				<h1 class="col-12 text-center tm-section-title">Palaute</h1>
+				<h3 class="col-12 text-center">Lähetä palautetta</h3>                                                                                                                
 
-			<div class="tm-container-inner-2 tm-contact-section">
-				<div class="row">
+			<div class="tm-container-inner-2 tm-contact-section" id="NollaMargin">
 					<div class="col-md-6">
-
-
-
 						<form action="" method="POST" class="tm-contact-form">
 							<div class="form-group">
-								<div class="arvolista">
-									<datalist id="Arvot">
-										<option value="1"></option>
-										<option value="2"></option>
-										<option value="3"></option>
-										<option value="4"></option>
-										<option value="5"></option>
-									</datalist>
-								</div>
-
-					        
-								<form>
 									<label for="Tyytyväisyys">Kuinka tyytyväinen olet palveluihimme?</label>
-									 <input type="range" name="Tyytyväisyys" min="1" max="5" list="Arvot">
-								</form>
+									 <input type="radio" name="Tyytyväisyys" value="Tyytyväisyys1">
+									 <label for="Tyytyväisyys1">1</label>
+									 <input type="radio" name="Tyytyväisyys" value="Tyytyväisyys2">
+									 <label for="Tyytyväisyys2">2</label>
+									 <input type="radio" name="Tyytyväisyys" value="Tyytyväisyys3">
+									 <label for="Tyytyväisyys3">3</label>
+									 <input type="radio" name="Tyytyväisyys" value="Tyytyväisyys4">
+									 <label for="Tyytyväisyys4">4</label>
+									 <input type="radio" name="Tyytyväisyys" value="Tyytyväisyys5">
+									 <label for="Tyytyväisyys5">5</label>	
 					        </div>
 
 							<div class="form-group">
-					          <input type="email" name="Sähköposti" class="form-control" placeholder="sähköposti" required="" />
+					          <input type="email" name="Sähköposti" class="form-control" placeholder="Sähköposti" required="" />
 					        </div>
 				
 					        <div class="form-group">
-					          <textarea rows="5" name="Viesti" class="form-control" placeholder="viesti" required=""></textarea>
+					          <textarea rows="5" name="Viesti" class="form-control" placeholder="Kirjoita palautteesi tähän" required=""></textarea>
 					        </div>
 					
 					        <div class="form-group tm-d-flex">
@@ -84,27 +77,6 @@ https://templatemo.com/tm-539-simple-house
 					        </div>
 						</form>
 					</div>
-					<div class="col-md-6">
-						<div class="tm-address-box">
-							<h4 class="tm-info-title tm-text-success">Meidän osoite </h4>
-							<address>
-								Sarviniitynkatu 9, Kerava
-							</address>
-							<a href="tel:080-090-0110" class="tm-contact-link">
-								<i class="fas fa-phone tm-contact-icon"></i>080-090-0110
-							</a>
-							<a href="mailto:info@company.co" class="tm-contact-link">
-								<i class="fas fa-envelope tm-contact-icon"></i>Jeffrey@pizzeria.co
-							</a>
-							<div class="tm-contact-social">
-								<a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-								<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
-								<a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
             
 <!-- How to change your own map point
 	1. Go to Google Maps

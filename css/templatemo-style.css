@@ -6,44 +6,15 @@ https://templatemo.com/tm-539-simple-house
 
 */
 
-/*Custom slideri palautesivulle*/
-input[type="range"]::-webkit-slider-runnable-track {
+.highlight-icon:hover{
+  border: white 1px dashed;
+}
+
+#NollaMargin{
+  margin: 0 auto;
+  max-width: 900px;
   width: 100%;
-  height: 1.2em;
-  cursor: pointer;
-  border: 1px solid #29334f;
-  background-color: rgb(73, 10, 10);
-  overflow: hidden;
 }
-
-input[type="range"]::-webkit-slider-thumb {
-  height: 12px;
-  width: 45px;
-  cursor: pointer;
-  -webkit-appearance: none;
-  border-bottom: 1px solid #29334f;
-  box-shadow: -15px 0 0 #268f3b, -30px 0 0 #268f3b, -45px 0 0 #268f3b,
-     -60px 0 0 #268f3b, -75px 0 0 #268f3b, -90px 0 0 #268f3b, -105px 0 0 #268f3b,
-     -120px 0 0 #268f3b;
-  background: black;
-}
-
-
-#Arvot {
-  display: flex;
-  justify-content: space-between;
-  max-width: 129px;
-}
-
-#Arvot option {
-  position: relative;
-  background: rgb(121, 65, 65);
-  top: 18px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  max-width: 10px;
-}
-
 
 .tm-section-title{
   color: white;
@@ -129,7 +100,7 @@ html {
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
+    /*max-width: 50%;*/
   }
 }
 
@@ -338,7 +309,7 @@ border-bottom: 1px solid white;
   .tm-section,
   .tm-container-inner,
   .tm-container-inner-2 {
-    max-width: 840px;
+    max-width: 440px;
   }
 }
 
@@ -635,12 +606,13 @@ border-bottom: 1px solid white;
 /* Contact Page */
 
 .tm-contact-form {
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
 }
 
 @media (min-width: 768px) {
  .tm-contact-form {
-    max-width: 310px;
+    max-width: 600px;
   } 
 }
 
@@ -655,6 +627,7 @@ border-bottom: 1px solid white;
 
 .form-group {
   margin-bottom: 30px;
+  max-width: 100%;
 }
 
 .form-control {
@@ -664,7 +637,7 @@ border-bottom: 1px solid white;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff;
+  color: #000000;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -846,77 +819,47 @@ address {
 }
 
 
-.profile {
-  display: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.profile-form {
+  background-color: white;
+  padding: 20px 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 180px;
+  margin-right: 180px;
   border: 2px solid black;
-  border-radius: 20px;
-  background-color: #0b5c1b;
-  padding: 30px;
-  margin-left: 280px;
-  margin-right: 280px;
+  border-radius: 5px;
 }
 
-#tiedot {
-  list-style: none;
-  width: 100%;
-  border: none;
-  border-radius: 18px;
-  padding: 0px;
-  background-color: #0b5c1b;
+.login-registeration-button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+  background-color: white;
 }
 
-#nimi {
-  display: center;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
-  color: black;
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
   font-size: medium;
-  line-height: 1;
-}
-
-#salasana {
-  display: center;
-  padding: 10px;
-  margin: 10px;
+  margin: 15px;
   border: 2px solid black;
-  border-radius: 10px;
-  color: black;
-  font-size: medium;
-  line-height: 1;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-#kirjautumisnapit {
-  list-style: none;
-  width: 100%;
-  border: none;
-  padding: 10px;
-  background-color: #0b5c1b;
-}
-
-#kirjaudu-nappi {
-  display: center;
-  padding: 10px;
-  margin: 10px;
+.submit-btn {
+  background-color: white;
   border: 2px solid black;
-  border-radius: 10px;
-  font-size: medium;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-#kirjaudu-ulos-nappi {
-  display: center;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
-  font-size: medium;
+.hidden {
+  display: none;
 }
-
-
 
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
 /* Style the buttons that are used to open and close the accordion panel */

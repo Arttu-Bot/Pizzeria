@@ -29,8 +29,8 @@
                         <li><a href="contact.html" class="highlight">Palaute</a></li>
                     </ul>
                     <div class="nav-profile">
-                        <a href="profile.html"> <img src="img/pizzeria_profiilikuva.png" class="profile-icon"></a>
-                        <p id="tervetulo-teksti"> </p>
+                        <a href="profile.html"> <img src="img/pizzeria_profiilikuva.png" class="profile-icon highlight-icon"></a>
+                        <a href="ostoskori.html"><img src="img/ostoskori.png" class="profile-icon highlight-icon"></a>
                     </div>
                 </div>
             </nav>
@@ -40,17 +40,27 @@
                     <p class="col-12 text-center">Täältä näet kaiken profiiliisi liittyvän</p>
             </header>
 
+            <div class="profile-form">
 
-            <div class="profile">
-                <form id="kirjautumislomake">
-                    <ul id="tiedot">
-                        <li><input id="nimi" type="text" placeholder="Syötä nimesi" value="" /></li>
-                        <li><input id="salasana" type="text" placeholder="Anna salasana" value="" /></li>
-                        <li><input id="kirjaudu-nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" /></li>
-                        <li><input id="kirjaudu-ulos-nappi" type="submit" value="Kirjaudu ulos" onClick="kirjaudu_ulos()" /></li>
-                    </ul>
+                <div class="login-registeration-button">
+                    <button onClick="showregisteration()">Rekisteröidy</button>
+                    <button onClick="showlogin()">Kirjaudu sisään</button>
+                </div>
+
+                <form id="registeration-form" class="input-group-hidden">
+                    <input type="text" placeholder="Anna nimesi" required>
+                    <input type="password" placeholder="Anna salasana" required>
+                    <button type="submit" class="submit-btn">Rekisteröidy</button>
                 </form>
+
+                <form id="login-form" class="input-group">
+                    <input type="text" placeholder="Anna nimesi" required>
+                    <input type="password" placeholder="Anna salasana" required>
+                    <button type="submit" class="submit-btn">Kirjaudu sisään</button>
+                </form>
+
             </div>
+
         </main>
 
         <footer class="tm-footer text-center">
@@ -60,22 +70,8 @@
         </footer>
 
     </div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			// Handle click on paging links
-			$('.tm-paging-link').click(function(e){
-				e.preventDefault();
-				
-				var page = $(this).text().toLowerCase();
-				$('.tm-gallery-page').addClass('hidden');
-				$('#tm-gallery-page-' + page).removeClass('hidden');
-				$('.tm-paging-link').removeClass('active');
-				$(this).addClass("active");
-			});
-		});
-	</script>
-	</div>
+
+    <script src="kirjautuminen.js"></script>
+
 </body>
 </html>
