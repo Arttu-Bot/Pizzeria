@@ -833,10 +833,10 @@ form {
 }
 
 input {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  box-sizing: border-box;
+  font-size: medium;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .login-text {
