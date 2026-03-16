@@ -1,13 +1,21 @@
-function showlogin() {
+document
+    .getElementById("loginForm")
+    .addEventListener("submit", function (event) {
+        event.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
 
-    document.getElementByID("registeration-form").classList.add("hidden");
+        const user = localStorage.getItem(username);
 
-    document.getElmentById("login-form").classList.remove("hidden");
-}
-
-function showRegister() {
-
-    document.getElementById("registeration-form").classList.remove("hidden")
-
-    document.getElementById("login-form").classList.add("hidden")
-}
+        if (user) {
+            const parsedUser = JSON.parse(user);
+            if (parsedUser.password === password) {
+                localStorage.setItem("user", JSON.stringify(parsedUser));
+                window.location.href = "index.html";
+            } else {
+              alert("Incorrect password");
+            }
+          } else {
+            alert("User not found");
+          }
+        });
