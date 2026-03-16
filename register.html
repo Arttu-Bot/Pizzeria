@@ -39,18 +39,20 @@
                     <h2 class="col-12 text-center tm-section-title">Tässä on profiilisi</h2>
                     <p class="col-12 text-center">Täältä näet kaiken profiiliisi liittyvän</p>
             </header>
-        
-        <div class="full-form">
-            <form id="loginForm">
-                <h2 class="login-text">Kirjaudu sisään</h2>
-                <input type="text" id="username" placeholder="Käyttäjänimi" required />
-                <input type="password" id="password" placeholder="Salasana" required />
-                <button type="submit">Kirjaudu</button>
-                &nbsp;<a href="register.html">Rekisteröidy</a>
-            </form>
-        </div>
+            
+            <div class="full-form">
+                <form id="registerForm">
+                    <h2 class="register-text">Rekisteröinti</h2>
+                    <input type="text" id="name" placeholder="Nimi" required />
+                    <input type="text" id="username" placeholder="Käyttäjänimi" required />
+                    <input type="password" id="password" placeholder="Salasana" required />
+                    <input type="password" id="confirmPassword" placeholder="Vahvista salasana" required />
+                    <button type="submit">Rekisteröidy</button>
+                    &nbsp;<a href="profile.html">Kirjautumaan</a>
+                </form>
+            </div>
 
-        <script src="kirjautuminen.js"></script>
+            <script src="rekisterointi.js"></script>
 
         </main>
 

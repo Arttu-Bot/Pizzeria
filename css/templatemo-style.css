@@ -819,45 +819,32 @@ address {
 }
 
 
-.profile-form {
-  background-color: white;
-  padding: 20px 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 180px;
-  margin-right: 180px;
-  border: 2px solid black;
+.full-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-}
-
-.login-registeration-button {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 8px;
-  background-color: white;
-}
-
-.input-group {
-  display: flex;
-  flex-direction: column;
 }
 
 input {
-  font-size: medium;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.submit-btn {
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 5px;
+.login-text {
+  color: white;
 }
 
-.hidden {
-  display: none;
+.register-text {
+  color: white;
 }
 
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
