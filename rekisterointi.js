@@ -9,7 +9,7 @@ document
             document.getElementById("confirmPassword").value;
 
           if (password !== confirmPassword) {
-            alert("Passwords do not match");
+            alert("Salasana ei täsmää");
             return;
           }
 
@@ -20,6 +20,6 @@ document
           };
 
           localStorage.setItem(username, JSON.stringify(user));
-          alert("Registration successful! Please login.");
-          window.location.href = "login.html";
+          alert("Rekisteröinti onnistui. Kirjaudu nyt sisään.");
+          window.location.href = "profile.html";
         });

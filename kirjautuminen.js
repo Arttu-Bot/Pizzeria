@@ -13,9 +13,9 @@ document
                 localStorage.setItem("user", JSON.stringify(parsedUser));
                 window.location.href = "index.html";
             } else {
-              alert("Incorrect password");
+              alert("Väärä salasana");
             }
           } else {
-            alert("User not found");
+            alert("Käyttäjää ei löytynyt");
           }
         });
