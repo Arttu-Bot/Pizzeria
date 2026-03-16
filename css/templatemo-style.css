@@ -350,7 +350,7 @@ border-bottom: 1px solid white;
 
 .tm-gallery-price {
   font-size: 1.25rem;
-  color: #50caa5;
+  color: white;
   margin-bottom: 40px;
   margin-left: 15px;
 }
@@ -374,7 +374,7 @@ border-bottom: 1px solid white;
 }
 
 .tm-add-pizza:hover {
-  background-color: #50caa5;
+  background-color: #0b5c1b;
   color: black;
   cursor: pointer;
 }
@@ -398,8 +398,8 @@ border-bottom: 1px solid white;
 }
 
 .tm-add-cart:hover {
-  background-color: #50caa5;
-  color: black;
+  background-color: #0b5c1b;
+  color: white;
   cursor: pointer;
 }
 
