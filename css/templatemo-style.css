@@ -847,6 +847,50 @@ input {
   color: white;
 }
 
+
+
+.products, .cart {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.product {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: #0b5c1b;
+  color: white;
+}
+
+button.remove {
+  background: #dc3545;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-link {
+  color: #000000;
+}
+
+
+.total {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {

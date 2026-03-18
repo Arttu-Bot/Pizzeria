@@ -52,7 +52,7 @@
 								<p class="tm-gallery-description">Kinkku, tonnikala, katkarapu, herkkusieni.</p>
 								<div class="row">
 									<p class="tm-gallery-price">12,49 €</p>
-                                	<button class="tm-add-cart" onclick="addToCart(12.49)">Koriin</button>
+									<button onclick="addToCart('Americana', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -65,7 +65,7 @@
 								<p class="tm-gallery-description">Kinkku, tonnikala, salamirouhe.</p>
 								<div class="row">
 									<p class="tm-gallery-price">12,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<button onclick="addToCart('Special Opera', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -78,7 +78,7 @@
 								<p class="tm-gallery-description">Tuoretomaatti, mozzarella.</p>
 								<div class="row">
 									<p class="tm-gallery-price">12,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+                                	<button onclick="addToCart('Mozzarella', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -91,7 +91,7 @@
 								<p class="tm-gallery-description">Pepperonimakkara, jalopeno, mozzarella, punasipuli.</p>
 								<div class="row">
 									<p class="tm-gallery-price">12,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+                                	<button onclick="addToCart('Mexicana', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -103,8 +103,8 @@
 								<h4 class="tm-gallery-title">Tropicana</h4>
 								<p class="tm-gallery-description">Kinkku, ananas.</p>
 								<div class="row">
-									<p class="tm-gallery-price">13,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Tropicana', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -117,7 +117,7 @@
 								<p class="tm-gallery-description">Runsaasti pepperonimakkaraa.</p>
 								<div class="row">
 									<p class="tm-gallery-price">12,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+                                	<button onclick="addToCart('Double pepperoni', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -129,8 +129,8 @@
 								<h4 class="tm-gallery-title">Meat lover</h4>
 								<p class="tm-gallery-description">Kebabliha, pekoni, kinkku, jauheliha, salami, pepperonimakkara, talon majoneesikastike.</p>
 								<div class="row">
-									<p class="tm-gallery-price">15,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Meat-lover', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -142,8 +142,8 @@
 								<h4 class="tm-gallery-title">Empire special</h4>
 								<p class="tm-gallery-description">Salamirouhe, kebabliha, jauheliha, pekoni, aurajuusto, talon majoneesikastike.</p>
 								<div class="row">
-									<p class="tm-gallery-price">15,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Empire special', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -155,8 +155,8 @@
 								<h4 class="tm-gallery-title">Kana special</h4>
 								<p class="tm-gallery-description">Paahdettu kana, persikka, rucola, aurajuusto, majoneesikastike.</p>
 								<div class="row">
-									<p class="tm-gallery-price">15,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Kana-special', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
@@ -168,28 +168,31 @@
 								<h4 class="tm-gallery-title">Chicken curry</h4>
 								<p class="tm-gallery-description">Paahdettu broileri, sipuli, tomaatti, fetajuusto, currymajoneesi.</p>
 								<div class="row">
-									<p class="tm-gallery-price">14,50 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Chicken-curry', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
 					</article>
 				<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 						<figure>
-							<img src="img/gallery/Vegetariana.jpg"Image" class="img-fluid tm-gallery-img" />
+							<img src="img/gallery/Vegetariana.jpg" alt="Image" class="img-fluid tm-gallery-img" />
 							<figcaption>
 								<h4 class="tm-gallery-title">Vegetariana</h4>
 								<p class="tm-gallery-description">Punasipuli, tomaatti, paprika, fetajuusto.</p>
 								<div class="row">
-									<p class="tm-gallery-price">13,49 €</p>
-                                	<p class="tm-add-cart">Koriin</p>
+									<p class="tm-gallery-price">12,49 €</p>
+                                	<button onclick="addToCart('Vegetariana', 12.49)" class="tm-add-pizza">Lisää Koriin</button>
 								</div>
 							</figcaption>
 						</figure>
 					</article>
-				
 				</div> 
             </div>
+
+			<script src="menu.js"></script>
+
+
         </main>
 
         <footer class="tm-footer text-center">
