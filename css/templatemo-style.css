@@ -855,7 +855,7 @@ input {
 }
 
 .cart-box {
-  background-color: white;
+  background-color: #0b5c1b;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -864,11 +864,6 @@ input {
   padding: 10px;
   border: 2px solid black;
   border-radius: 10px;
-}
-
-.product {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
 }
 
 .cart-button {
@@ -892,9 +887,8 @@ button.remove {
 }
 
 .cart-link {
-  color: #000000;
+  color: white;
 }
-
 
 .total {
   font-weight: bold;
