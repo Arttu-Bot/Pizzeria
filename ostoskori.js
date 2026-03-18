@@ -10,7 +10,7 @@ function loadCart() {
 
         div.innerHTML += `
         <p>
-            ${item.name} - ${item.price}€
+            ${item.name}  ${item.price}€
             <button onclick="removeItem(${index})" class="cart-button">Poista</button>
         </p>
         `;
