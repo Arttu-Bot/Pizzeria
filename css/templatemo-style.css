@@ -543,13 +543,13 @@ border-bottom: 1px solid white;
   display: relative;
   list-style: none;
   padding: 15px;
-  justify-content: left;
+  justify-content: center;
   align-items: baseline;
   font-size: medium;
   font-weight: 300;
   color: black;
   text-align: center;
-  width: 250px;
+  width: 350px;
   margin-left: 50px;
   margin-bottom: 20px;
   background-color: #0b5c1b;
@@ -601,6 +601,13 @@ border-bottom: 1px solid white;
   height: 100px;
   width: 100px;
   margin: 15px;
+}
+
+.fantasia-button {
+  background-color: #752423;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /* Contact Page */
@@ -847,13 +854,16 @@ input {
   color: white;
 }
 
-
-
-.products, .cart {
-  background: white;
-  padding: 20px;
+.cart-box {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+  border: 2px solid black;
   border-radius: 10px;
-  flex: 1;
 }
 
 .product {
@@ -878,7 +888,7 @@ button.remove {
 .cart-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .cart-link {
